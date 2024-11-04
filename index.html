@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,24 +5,27 @@
     <title>My Data Science Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Profile Section -->
     <header id="profile">
-        <img src="your-photo.jpg" alt="Your Profile Photo">
-        <h1>Your Name</h1>
-        <p>Data Scientist | Problem Solver | Innovator</p>
-        <button onclick="scrollToContact()">Contact Me</button>
+        <div class="profile-content">
+            <img src="your-photo.jpg" alt="Your Profile Photo" class="profile-photo">
+            <h1>Your Name</h1>
+            <p class="subtitle">Data Scientist | Problem Solver | Innovator</p>
+            <button onclick="scrollToContact()" class="contact-button">Contact Me</button>
+        </div>
     </header>
 
     <!-- About Section -->
-    <section id="about">
+    <section id="about" class="section-container">
         <h2>About Me</h2>
         <p>Here, I dive deeper into my journey into data science and machine learning...</p>
     </section>
 
     <!-- Proficiencies Section -->
-    <section id="proficiencies">
+    <section id="proficiencies" class="section-container">
         <h2>Proficiencies</h2>
         <div class="skills">
             <div class="skill">
@@ -39,7 +41,7 @@
     </section>
 
     <!-- Projects Section -->
-    <section id="projects">
+    <section id="projects" class="section-container">
         <h2>Projects</h2>
         <div class="project">
             <img src="project_thumbnail.jpg" alt="Project Image">
@@ -52,7 +54,7 @@
     </section>
 
     <!-- Other Platforms Section -->
-    <section id="other-platforms">
+    <section id="other-platforms" class="section-container">
         <h2>Other Platforms</h2>
         <p>Explore my work on other platforms:</p>
         <ul>
@@ -63,7 +65,7 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact">
+    <section id="contact" class="section-container">
         <h2>Contact</h2>
         <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
         <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">Your LinkedIn</a></p>
