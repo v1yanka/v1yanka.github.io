@@ -12,3 +12,22 @@ document.addEventListener("DOMContentLoaded", function() {
         navLinks.classList.toggle("active");
     });
 });
+// Fade-in effect for sections
+const sections = document.querySelectorAll('.section-container');
+
+const options = {
+    threshold: 0.3,
+};
+
+const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.style.opacity = 1;
+            observer.unobserve(entry.target);
+        }
+    });
+}, options);
+
+sections.forEach(section => {
+    observer.observe(section);
+});
