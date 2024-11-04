@@ -2,7 +2,7 @@
 🚀 Hello! I’m a recent graduate in Data Science and Information Systems, driven by a love for learning, discovering hidden patterns, and transforming data into impactful insights.<br>👩‍💻 As a woman in STEM, I’m excited to contribute to a field where information is power. I believe data has the potential to transform decisions and open new avenues of understanding, and I’m eager to apply my skills in a real-world setting to create this impact.<br>🤝 I’m currently seeking opportunities to kickstart my career in tech, where I can dive into projects that challenge me to solve complex problems, extract actionable insights, and reveal patterns that might otherwise go unnoticed.<br>📊 Passionate about accessibility, I strive to make data insights understandable and useful for audiences beyond those with a statistical background, ensuring that the power of data is available to everyone.<br>🌿 In my free time, I love stepping away from the screen to reconnect with friends and recharge. Whether it's hiking Wellington’s trails, swimming at the beach or trying out a new restaurant - I'm always up for exploring new places and experiences! <br><br><br>
 
 
-## 🌐 Socials:
+# 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/viyankamoodley) 
 
 # 💻 Tech Stack:
