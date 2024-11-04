@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Data Science Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Profile Section -->
+    <header id="profile">
+        <img src="your-photo.jpg" alt="Your Profile Photo">
+        <h1>Your Name</h1>
+        <p>Data Scientist | Problem Solver | Innovator</p>
+        <button onclick="scrollToContact()">Contact Me</button>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Here, I dive deeper into my journey into data science and machine learning...</p>
+    </section>
+
+    <!-- Proficiencies Section -->
+    <section id="proficiencies">
+        <h2>Proficiencies</h2>
+        <div class="skills">
+            <div class="skill">
+                <img src="data_analysis_icon.png" alt="Data Analysis Icon">
+                <p>Data Analysis</p>
+            </div>
+            <div class="skill">
+                <img src="ml_icon.png" alt="Machine Learning Icon">
+                <p>Machine Learning</p>
+            </div>
+            <!-- Add more skills similarly -->
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <img src="project_thumbnail.jpg" alt="Project Image">
+            <h3>Project Title</h3>
+            <p>Project Description.</p>
+            <a href="https://github.com/yourusername/project" target="_blank">GitHub</a>
+            <a href="https://medium.com/your-article" target="_blank">Medium</a>
+            <!-- Add more projects similarly -->
+        </div>
+    </section>
+
+    <!-- Other Platforms Section -->
+    <section id="other-platforms">
+        <h2>Other Platforms</h2>
+        <p>Explore my work on other platforms:</p>
+        <ul>
+            <li><a href="https://github.com/yourusername" target="_blank">GitHub</a></li>
+            <li><a href="https://medium.com/your-profile" target="_blank">Medium</a></li>
+            <li><a href="https://public.tableau.com/yourprofile" target="_blank">Tableau</a></li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">Your LinkedIn</a></p>
+        <p>Location: Your City, Country (Available for remote work)</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
