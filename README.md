@@ -1,4 +1,4 @@
-# 💫 Hello, I'm Viyanka!:
+# 💫 Hello, I'm Viyanka!
 🚀 I’m a recent graduate in Data Science and Information Systems, driven by a love for learning, discovering hidden patterns, and transforming data into impactful insights.
 <br>
 👩‍💻 As a woman in STEM, I’m excited to join the growing workforce of women data scientists shaping the future of technology. In a field where information is power, I’m eager to contribute my skills and perspective, advancing both data science and the representation of women within it! 
